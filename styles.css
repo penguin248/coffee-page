@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/* variables */
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* utility styles */
+button {
+  padding: 10px 3opx;
+  background: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
