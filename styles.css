@@ -20,3 +20,35 @@ button {
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #100e0f;
+}
+
+/* Navigation start */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 15px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+li a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+
+/* Navigation start */
